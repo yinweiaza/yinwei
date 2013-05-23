@@ -36,7 +36,7 @@ return 0;
 }
 
 
-
+//输出查询到学生的信息
 void  show(NODE *tp){
 	if(tp!=NULL){
 		printf("学号:%d\n姓名:%s\n年龄:%d\n生日:%s\n地址:%s\n电话号码:%s\n邮箱:%s\n",tp->next.id,tp->next.name,tp->next.age,tp->next.birth,tp->next.address,tp->next.phone,tp->next.mail);
