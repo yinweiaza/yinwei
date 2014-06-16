@@ -1,0 +1,33 @@
+ 1 高斯变异
+这种变异的方法就是，产生一个服从高斯分布的随机数，取代原先基因中的实数数值。这个算法产生的随机数，数学期望当为当前基因的实数数值。
+一个模拟产生的算法是，产生6个服从U(0,1)的随机数，以他们的数学期望作为高斯分布随机数的近似。
+
+
+template<class GENE>
+ 2 class Gauss_Mutate_Algorithm
+ 3 {
+ 4         public:
+ 5             void operator()( GENE& gene )const
+ 6             {
+ 7                 long double gauss = 0.0L;
+ 8                 for ( unsigned int i = 0; i < 6; ++i )
+ 9                     gauss += ran();
+10                 gauss /= 6.0L;
+11 
+12                 long double upper;
+13                 long double lower;
+14                 const long double Upper = gene.Upper;
+15                 const long double Lower = gene.Lower;
+16                 const long double Value = gene.Value;
+17 
+18                 ( ( Value - Lower ) > ( Upper - Value ) ) ?
+19                 ( upper = Upper, lower = Value * 2.0L - Upper ) :
+20                 ( lower = Lower, upper = Value * 2.0L - Lower );
+21 
+22                 gauss *= ( upper - lower );
+23                 guass += lower;
+24
+25                 gene.Value = gauss;
+26             }
+27 };
+28

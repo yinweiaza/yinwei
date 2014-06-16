@@ -1,0 +1,17 @@
+{
+    "contents" : "diff<-function(x){\n #pso<-tpsco(rep(NA,30),test_f,lower=-100,upper=100,control=list(maxit=x,trace=0,SCOND=FALSE,GUASS=FALSE,m=10,r=10,n=10))\n  #tpso<-tpsco(rep(NA,30),test_f,lower=-100,upper=100,control=list(maxit=x,trace=0,SCOND=TRUE,GUASS=FALSE,m=10,r=10,n=10))\n  psco<-tpsco(rep(NA,30),test_f,lower=-100,upper=100,control=list(maxit=100,trace=0,SCOND=FALSE,GUASS=TRUE,m=10,n=10))  \n  end<-tpsco(rep(NA,30),test_f,lower=-100,upper=100,control=list(maxit=100,trace=0,SCOND=TRUE,GUASS=TRUE,m=10,n=10))\n  cbind(psco$value,end$value)\n  #\n}\n\nf_name<-\"Sphere\"\nd<-\"---------------------------------------------------------\"\n\nresult<-sapply(1:30,diff)\n\ncom1<-apply(result,1,mean)\ncom2<-apply(result,1,sd)\n\n#dump(c(\"f_name\",\"com1\",\"com2\",\"d\"),file=\"record1\",append=TRUE)",
+    "created" : 1402818551387.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3803203467",
+    "id" : "110681CF",
+    "lastKnownWriteTime" : 1402901262,
+    "path" : "~/paper/lunwen/pso/VPSO/diff.R",
+    "project_path" : "diff.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,1642 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.12.2)  4 JUN 2014 10:20
+entering extended mode
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/CJK/CJK.sty
+Package: CJK 2008/12/29 4.8.2
+
+(/usr/share/texmf/tex/latex/CJK/mule/MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box26
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen114
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen115
+\subfiglabelskip=\skip58
+\c@subfigure=\count99
+\c@lofdepth=\count100
+\c@subtable=\count101
+\c@lotdepth=\count102
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+(/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count103
+\mult@box=\box29
+\multicol@leftmargin=\dimen116
+\c@unbalance=\count104
+\c@collectmore=\count105
+\doublecol@number=\count106
+\multicoltolerance=\count107
+\multicolpretolerance=\count108
+\full@width=\dimen117
+\page@free=\dimen118
+\premulticols=\dimen119
+\postmulticols=\dimen120
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box30
+\last@line=\box31
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count109
+\c@finalcolumnbadness=\count110
+\last@try=\dimen121
+\multicolovershoot=\dimen122
+\multicolundershoot=\dimen123
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+)
+(/usr/share/texmf-texlive/tex/latex/picins.sty
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box55
+\@TEXT=\box56
+\d@breite=\dimen124
+\d@hoehe=\dimen125
+\d@xoff=\dimen126
+\d@yoff=\dimen127
+\d@shad=\dimen128
+\d@dash=\dimen129
+\d@boxl=\dimen130
+\d@pichskip=\dimen131
+\d@tmp=\dimen132
+\d@tmpa=\dimen133
+\d@bskip=\dimen134
+\hsiz@=\dimen135
+\p@getot@l=\dimen136
+\c@breite=\count111
+\c@hoehe=\count112
+\c@xoff=\count113
+\c@yoff=\count114
+\c@pos=\count115
+\c@shad=\count116
+\c@dash=\count117
+\c@boxl=\count118
+\c@zeilen=\count119
+\@changemode=\count120
+\c@piccaption=\count121
+\c@piccaptionpos=\count122
+\c@picpos=\count123
+\c@whole=\count124
+\c@half=\count125
+\c@tmp=\count126
+\c@tmpa=\count127
+\c@tmpb=\count128
+\c@tmpc=\count129
+\c@tmpd=\count130
+\d@leftskip=\skip63
+\ptoti=\dimen137
+\ptotii=\dimen138
+\env@box=\box57
+\d@envdp=\dimen139
+\c@hsize=\count131
+\c@envdp=\count132
+\d@envb=\dimen140
+)
+(/usr/share/texmf-texlive/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip64
+\absleftindent=\skip65
+\absrightindent=\skip66
+\absparindent=\skip67
+\absparsep=\skip68
+)
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip69
+\thm@postskip=\skip70
+\thm@headsep=\skip71
+\dth@everypar=\toks25
+)
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen141
+\lightrulewidth=\dimen142
+\cmidrulewidth=\dimen143
+\belowrulesep=\dimen144
+\belowbottomsep=\dimen145
+\aboverulesep=\dimen146
+\abovetopsep=\dimen147
+\cmidrulesep=\dimen148
+\cmidrulekern=\dimen149
+\defaultaddspace=\dimen150
+\@cmidla=\count133
+\@cmidlb=\count134
+\@aboverulesep=\dimen151
+\@belowrulesep=\dimen152
+\@thisruleclass=\count135
+\@lastruleclass=\count136
+\@thisrulewidth=\dimen153
+)
+(/usr/share/texmf-texlive/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2007/08/12 v2.8 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen154
+\ttl@minus=\dimen155
+\ttl@toksa=\toks26
+\titlewidth=\dimen156
+\titlewidthlast=\dimen157
+\titlewidthfirst=\dimen158
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen159
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/ulem.sty
+\UL@box=\box59
+\UL@hyphenbox=\box60
+\UL@skip=\skip74
+\UL@hook=\toks27
+\UL@pe=\count137
+\UL@pixel=\dimen160
+\ULC@box=\box61
+Package: ulem 2000/05/26
+\ULdepth=\dimen161
+)
+(/usr/share/texmf-texlive/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-texlive/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+)
+(/usr/share/texmf-texlive/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen162
+)
+(/usr/share/texmf-texlive/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen163
+\extrarowheight=\dimen164
+\NC@list=\toks28
+\extratabsurround=\skip75
+\backup@length=\skip76
+)
+\rotheadsize=\dimen165
+\c@nlinenum=\count138
+\TeXr@lab=\toks29
+)
+(/usr/share/texmf-texlive/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2007/08/08 v1.62 (Daniel Flipo)
+\c@DefaultLines=\count139
+\DefaultFindent=\dimen166
+\DefaultNindent=\dimen167
+\DefaultSlope=\dimen168
+\L@lbox=\box62
+\L@tbox=\box63
+\c@L@lines=\count140
+\L@Pindent=\dimen169
+\L@Findent=\dimen170
+\L@Nindent=\dimen171
+\L@lraise=\dimen172
+\L@first=\dimen173
+\L@next=\dimen174
+\L@slope=\dimen175
+\L@height=\dimen176
+\LettrineWidth=\dimen177
+
+Loading lettrine.cfg
+(/usr/share/texmf-texlive/tex/latex/lettrine/lettrine.cfg))
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+File: UTF8.bdg 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/GB/GB.cpx
+File: GB.cpx 2008/12/29 4.8.2
+
+
+! LaTeX Error: \bibname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...mmand\bibname{^^?Î^^?196^^?^^?Ï^^?215^^?}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \figureformat undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \renewcommand\figureformat
+                               {\prefigurename~\thefigure~\postfigurename}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \tableformat undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \renewcommand\tableformat
+                              {\pretablename~\thetable~\posttablename}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \partformat undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \renewcommand\partformat
+                             {\prepartname\CJKnumber{\value{part}}\postpartn...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 110.
+
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texmf/tex/latex/CJK/standard.bdg
+File: standard.bdg 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/extended.enc
+File: extended.enc 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/extended.chr
+File: extended.chr 2008/12/29 4.8.2
+)
+(/usr/share/texmf/tex/latex/CJK/GB/GB.cpx
+File: GB.cpx 2008/12/29 4.8.2
+
+
+! LaTeX Error: \bibname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...mmand\bibname{^^?Î^^?196^^?^^?Ï^^?215^^?}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \figureformat undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \renewcommand\figureformat
+                               {\prefigurename~\thefigure~\postfigurename}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \tableformat undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \renewcommand\tableformat
+                              {\pretablename~\thetable~\posttablename}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \partformat undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \renewcommand\partformat
+                             {\prepartname\CJKnumber{\value{part}}\postpartn...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+\c@Cha=\count141
+\c@Cor=\count142
+\c@Thm=\count143
+\c@Site=\count144
+\c@Def=\count145
+\c@Rem=\count146
+\c@Alg=\count147
+\c@Exam=\count148
+\c@Sup=\count149
+LaTeX Font Info:    Try loading font information for C19+hei on input line 165.
+
+LaTeX Font Info:    No file C19hei.fd. on input line 165.
+
+
+LaTeX Font Warning: Font shape `C19/hei/m/n' undefined
+(Font)              using `C19/song/m/n' instead on input line 165.
+
+LaTeX Font Info:    Try loading font information for C19+song on input line 165
+.
+LaTeX Font Info:    No file C19song.fd. on input line 165.
+! Undefined control sequence.
+try@size@range ...extract@rangefontinfo font@info 
+                                                  <-*>@nil <@nnil 
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> @nil 
+                
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> def reserved@f 
+                          {extract@rangefontinfo <@nnil }upper@bound 0*p@ if...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of extract@rangefontinfo has an extra }.
+<inserted text> 
+                par 
+l.165 \maketitle
+                
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil 
+! Paragraph ended before extract@rangefontinfo was complete.
+<to be read again> 
+                   par 
+l.165 \maketitle
+                
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+<argument> ...served@f @empty fi fi fi reserved@f 
+                                                  
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+try@size@substitution ...b maxdimen let best@size 
+                                                  @empty expandafter try@sim...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+try@size@substitution ...er try@simples font@info 
+                                                  <number @M >@nil <@nnil 
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+tryif@simple #1-#2tryif@simple ->let reserved@f 
+                                                try@simples if >#2dimen@ #1p...
+l.165 \maketitle
+                
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 4167 strings out of 493849
+ 46858 string characters out of 1152846
+ 140205 words of memory out of 3000000
+ 7368 multiletter control sequences out of 15000+50000
+ 5060 words of font info for 18 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 101i,1n,181p,296b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.

@@ -1,0 +1,17 @@
+{
+    "contents" : "Sphere函数：  30维    (-100,100)\ntest_f<-function(x){\n  a<-sum(x^2)\n  \n  return(a)\n  \n}\n\n\n\nGriewank函数:   30维  (-100,100)\n  test_f<-function(x){\n  a<-sum(x^2)/4000\n  b<-prod(cos(x/sqrt(1:length(x))))\n  c<-a-b+1\n  \n  return(c)\n  \n}\n\nRastrigin函数:  30维   (-100,100)\ntest_f<-function(x){\n  a<-sum(x^2-10*cos(2*pi*x)+10)\n  return(a)\n  \n}\n\n\nAckley函数:  30维   (-30,30)\ntest_f<-function(x){\n  a<-((-20)*exp(-0.2*sqrt(sum(x^2)/length(x)))-exp(sum(cos(2*pi*x))/length(x))+20+exp(1))\n  return(a)\n  \n}\n\n\n\nRosenbrock函数  （-10，10）\ntest_f<-function(x){\n  a<-100*(x[1]^2-x[2])^2+(1-x[1])^2\n  \n  return(a)\n  \n}",
+    "created" : 1401353755074.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1571133583",
+    "id" : "93D2BA16",
+    "lastKnownWriteTime" : 1401784505,
+    "path" : "~/paper/lunwen/pso/record",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "text"
+}

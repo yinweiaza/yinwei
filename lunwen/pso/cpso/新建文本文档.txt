@@ -1,0 +1,137 @@
+#include<iostream.h>
+#include <math.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+#define c1 2        //学习因子
+#define c2 2        //学习因子
+#define a 0.9       //约束因子
+#define b 0.01      //混沌搜索常量
+#define ckmax 150   //混沌搜索最大步长
+#define wmin 0.4    //最小惯性因子
+#define wmax 0.9    //最大惯性因子
+#define fmin 0.398   //给定的函数阀值
+#define N 2         //粒子的维数
+#define M 50       //粒子的个数
+#define D 5000       //迭代次数
+#define rmax RAND_MAX
+#define PI 3.14159262653589
+typedef struct particle  //粒子的结构(包含n维的位置x，速度v,最优位置p,适应度pbest)
+{
+ double x[N];
+ double v[N];
+ double p[N];
+ double pbest;       
+}ptc;
+double f(double *x)
+{                                        //测试函数
+ double k;
+ k=(x[2]-(5.1*x[1]*x[1])/(4*PI*PI)+5*x[1]/PI-6)*(x[2]-5.1*x[1]*x[1]/(4*PI*PI)+5*x[1]/PI-6)+10*(1-1/(8*PI))*cos(x[1])+10;
+ return k;
+}
+void init(ptc *pts,double *ps,double &psbest,int &k,double *xmax,double *xmin,double *vmax,double *vmin)   //初始化粒子群
+{
+ psbest=0;
+ k=0;
+ for(int i=0;i<N;i++)
+ {
+  cout<<"输入粒子位置第"<<i<<"维的最小值:";
+  cin>>xmin[i];
+  cout<<"输入粒子位置第"<<i<<"维的最大值:";
+  cin>>xmax[i];
+  vmin[i]=xmin[i]/5;
+  vmax[i]=xmax[i]/5;
+ }
+ srand((unsigned)time(NULL));
+ for(int j=0;j<N;j++)
+ {
+  for(int i=0;i<M;i++)
+  {
+   pts[i].x[j]=(xmax[j]-xmin[j])*(double)rand()/(double)RAND_MAX+xmin[j]; //初始化粒子的位置
+   pts[i].v[j]=(vmax[j]-vmin[j])*(double)rand()/(double)RAND_MAX+vmin[j];//初始化粒子的速度
+   pts[i].p[j]=pts[i].x[j];//初始化粒子的最优位置
+  }
+  ps[j]=pts[0].x[j];   //初始化粒子群的全局最优
+ }
+ psbest=f(ps);
+ for(i=0;i<M;i++)
+ {
+  pts[i].pbest=f(pts[i].x);
+  if(pts[i].pbest<psbest)
+   psbest=pts[i].pbest;
+ }
+}
+
+void update(ptc *pts,double *ps,double &psbest,int &k,double *xmax,double *xmin,double *vmax,double *vmin)    //对粒子群进行更新
+{
+ double w;
+ w=wmax-(wmax-wmin)*k/D;
+ for(int i=0;i<M;i++)
+ {
+  for(int j=0;j<N;j++)
+  {
+   double v=pts[i].v[j];
+   pts[i].v[j]=w*pts[i].v[j]+c1*((double)rand()/(double)RAND_MAX)*(pts[i].p[j]-pts[i].x[j])+c2*((double)rand()/(double)RAND_MAX)*(pts[i].p[j]-pts[i].x[j]);
+   pts[i].x[j]=a*v+pts[i].x[j];  //进化v和x
+   if(pts[i].v[j]>vmax[i])     
+    pts[i].v[j]=vmax[j];
+   if(pts[i].v[j]<vmin[j])
+    pts[i].v[j]=vmin[j];
+   if((pts[i].x[j]>xmax[j])||(pts[i].x[j]<xmin[j]))
+    pts[i].x[j]=(xmax[j]-xmin[j])*(double)rand()/(double)RAND_MAX+xmin[j];    
+  }
+  if(f(pts[i].x)<pts[i].pbest)
+  {
+   pts[i].pbest=f(pts[i].x);
+   pts[i].p[0]=pts[i].x[0];pts[i].p[1]=pts[i].x[1];
+  }
+  if(pts[i].pbest<psbest)
+  {
+   psbest=pts[i].pbest;
+   ps[0]=pts[i].p[0];ps[1]=pts[i].p[1];
+  }
+ }
+ k=k+1;
+}
+void hundun(double *ps,double &psbest,int &d,double *xmax,double *xmin)
+{                                   //混沌搜索算法,对ps即全局最优粒子的第d维函数进行优化
+ double rx;
+ for(int l=0;l<ckmax;l++)
+ {
+  rx=ps[d];
+     ps[d]=ps[d]+b*ps[d];
+     if(f(ps)<psbest)
+   psbest=f(ps);
+  else
+   ps[d]=rx;
+  ps[d]=(ps[d]-xmin[d])/(xmax[d]-xmin[d]);
+  ps[d]=4*ps[d]*(1-ps[d]);
+  if((ps[d]=0)||(ps[d]=0.25)||(ps[d]=0.75)||(ps[d]=1))
+   l=ckmax;
+  else 
+   ps[d]=xmin[d]+(xmax[d]-xmin[d])*ps[d];
+ }
+}
+void main()
+{
+ double ps[N];   //全局最优位置
+ double psbest;  //全局最优适应度
+ int k;          //进化当前的代数
+ double p;       //混沌搜索的判断标准
+ double xmax[N];
+ double xmin[N];   //每个粒子位置变量的最值
+ double vmax[N];
+ double vmin[N];   //每个粒子中速度变量的最值
+ ptc *pts=new ptc[M];     //粒子群的结构(包含m个粒子)
+ init(pts,ps,psbest,k,xmax,xmin,vmax,vmin);      //初始化粒子群
+ for(int i=0;(i<D)&&(psbest>fmin);i++)
+ {
+  update(pts,ps,psbest,k,xmax,xmin,vmax,vmin);     //更新粒子群
+  p=1-1/(1+log(k));
+  if(p>=((double)rand()/(double)RAND_MAX))   //满足混沌搜索的条件
+   for(int d=0;d<N;d++)
+    hundun(ps,psbest,d,xmax,xmin);
+ }
+ cout<<"收敛结果是"<<psbest<<endl;
+ cout<<"所使用的进化次数是"<<k<<endl;
+}
